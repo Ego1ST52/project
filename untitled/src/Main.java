@@ -3,5 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         String s = "даня лох";
-        }
+        String s2 = "даня лох";
+        String s22 = "даня лох";
+        String s222 = "даня лох";
+        String s2222 = "даня лох";
     }
+}
