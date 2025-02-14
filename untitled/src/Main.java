@@ -14,9 +14,13 @@ public class Main {
             String questionFromUser = scanner.nextLine();
             System.out.print("Введите через запятую и пробел варианты ответа,после укажите правильный ответ: ");
             String answer = scanner.nextLine();
+            String[] masiv = answer.split(", ");
+            String trueAnswer = masiv[masiv.length - 1];
+
 
             System.out.println(questionFromUser);
             System.out.println(answer);
+            System.out.println(trueAnswer);
 
 
 
